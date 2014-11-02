@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?><TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="top|center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="15sp is the &apos;normal&apos; size."
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:height="150px"
+        android:orientation="horizontal"
+        android:paddingLeft="25px"
+        android:paddingRight="25px"
+        android:paddingTop="5px" >
+
+        <Button
+            android:id="@+id/bye"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:text="Good Bye" >
+        </Button>
+
+        <Button
+            android:id="@+id/dontworry"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:text="Don&apos;t worry" >
+        </Button>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:height="150px"
+        android:orientation="horizontal"
+        android:paddingLeft="25px"
+        android:paddingRight="25px"
+        android:paddingTop="5px" >
+
+        <Button
+            android:id="@+id/good"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:text="Good" >
+        </Button>
+
+        <Button
+            android:id="@+id/goodevening"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:text="Good evening" >
+        </Button>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:height="150px"
+        android:orientation="horizontal"
+        android:paddingLeft="25px"
+        android:paddingRight="25px"
+        android:paddingTop="5px" >
+
+        <Button
+            android:id="@+id/goodmorning"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:text="Good morning" >
+        </Button>
+
+        <Button
+            android:id="@+id/hello"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:text="Hello" >
+        </Button>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:height="150px"
+        android:orientation="horizontal"
+        android:paddingLeft="25px"
+        android:paddingRight="25px"
+        android:paddingTop="5px" >
+
+        <Button
+            android:id="@+id/howareyou"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:text="How are you?" >
+        </Button>
+
+        <Button
+            android:id="@+id/no"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:text="No" >
+        </Button>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:height="150px"
+        android:orientation="horizontal"
+        android:paddingLeft="25px"
+        android:paddingRight="25px"
+        android:paddingTop="5px" >
+
+        <Button
+            android:id="@+id/excuseme"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:text="Excuse me" >
+        </Button>
+
+        <Button
+            android:id="@+id/please"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:text="Please" >
+        </Button>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:height="150px"
+        android:orientation="horizontal"
+        android:paddingLeft="25px"
+        android:paddingRight="25px"
+        android:paddingTop="5px" >
+
+        <Button
+            android:id="@+id/repeat"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:text="Repeat" >
+        </Button>
+
+        <Button
+            android:id="@+id/thanks"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:text="Thanks" >
+        </Button>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:height="150px"
+        android:orientation="horizontal"
+        android:paddingLeft="25px"
+        android:paddingRight="25px"
+        android:paddingTop="5px" >
+
+        <Button
+            android:id="@+id/whatisthat"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:text="What is that?" >
+        </Button>
+
+        <Button
+            android:id="@+id/yes"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:text="Yes" >
+        </Button>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:height="150px"
+        android:orientation="horizontal"
+        android:paddingLeft="25px"
+        android:paddingRight="25px"
+        android:paddingTop="5px" >
+
+        <Button
+            android:id="@+id/youarewelcome"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:text="You are welcome" >
+        </Button>
+
+        <Button
+            android:id="@+id/whattimeisit"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:text="What time is it?" >
+        </Button>
+    </TableRow>
+
+</TableLayout>
